@@ -1,0 +1,36 @@
+{
+  "app_name": "GTA VI: Vice City Stories & Interactive Dossier",
+  "app_type": "hybrid_fullstack",
+  "theme": "dark_neon_tropical",
+  "forbidden_color": "#7351B7",
+  "typography": {
+    "heading": "Cabinet Grotesk, Unbounded, sans-serif",
+    "body": "Outfit, Inter, sans-serif",
+    "mono": "JetBrains Mono, monospace"
+  },
+  "colors": {
+    "background": "#09090b",
+    "surface": "#121216",
+    "primary": "#ff2a6d",
+    "secondary": "#05d9e8",
+    "accent": "#fffc31",
+    "muted": "#8b8b9e",
+    "border": "#272732"
+  },
+  "components": [
+    "HamburgerMenu",
+    "HeroKinetic",
+    "EditorialStoryline",
+    "CharacterSelector",
+    "EasterEggsGallery",
+    "TrailerCarousel",
+    "LocalApiStatus"
+  ],
+  "image_urls": {
+    "lucia": "https://images.unsplash.com/photo-1500305614571-ae5b6592e65d?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "jason": "https://images.unsplash.com/photo-1669277752825-d7c26a392b4d?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "vice_city": "https://images.unsplash.com/photo-1779333429848-d6494e6b11ff?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "trailer_bg": "https://images.unsplash.com/photo-1593052289983-6c123686662c?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "instructions_to_main_agent": "Build a stunning award-winning GTA VI editorial hub with full local API endpoints in backend/server.py (returning story, characters with toggle, easter eggs with map/theory tags, and trailer info). Ensure smooth hamburger navigation, kinetic hero with reveal, character switcher with image previews, interactive easter egg gallery with filter, trailer carousel, and fully responsive layout adhering strictly to E1 design principles."
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body,
+#root {
+  min-height: 100%;
+  width: 100%;
+}
+::selection {
+  background: #ff2a6d;
+  color: #fff;
+}
+
+/* O menu acompanha o scroll sem esconder o conteúdo editorial. */
+.topbar {
+  position: fixed !important;
+  background: linear-gradient(180deg, rgba(9, 9, 11, 0.6), transparent);
+  backdrop-filter: blur(4px);
+}
